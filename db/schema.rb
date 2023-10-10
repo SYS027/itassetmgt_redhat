@@ -162,7 +162,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_03_072535) do
   create_table "companies", force: :cascade do |t|
     t.string "name"
     t.string "email"
-    t.integer "contact_number"
+    t.bigint "contact_number"
     t.string "portal_name"
     t.string "industry"
     t.integer "number_of_employees"
@@ -302,7 +302,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_03_072535) do
     t.bigint "company_id", null: false
     t.string "vendor_name"
     t.string "email"
-    t.integer "phone_number"
+    t.string "phone_number"
     t.bigint "country_id", null: false
     t.bigint "state_id", null: false
     t.bigint "city_id", null: false
