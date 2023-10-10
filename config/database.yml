@@ -7,8 +7,8 @@ development:
   <<: *default
   database: itassetmanager
   username: postgres
-  password: sqlpass
-  host: 103.228.83.115
+  password: Cylsys@027
+  host: localhost
 
 production:
   <<: *default
