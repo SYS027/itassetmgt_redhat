@@ -1,0 +1,1 @@
+# itassetmgt_redhat
