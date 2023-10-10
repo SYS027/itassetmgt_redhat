@@ -1,1 +1,1 @@
-# itassetmgt_redhat
+# itassetmgtdeploy
