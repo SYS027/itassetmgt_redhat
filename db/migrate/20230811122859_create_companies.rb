@@ -5,7 +5,7 @@ class CreateCompanies < ActiveRecord::Migration[7.0]
     create_table :companies do |t|
       t.string :name
       t.string :email
-      t.bigint :contact_number
+      t.string :contact_number
       t.string :portal_name
       t.string :industry
       t.integer :number_of_employees
